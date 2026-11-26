@@ -6,7 +6,7 @@
 
 在 Codex 中发送：
 
-> 请把 https://github.com/MilesHuang-EDIT/jianying-tutorial-editing 的根目录安装为 Codex skill，安装名用 `video-workflow-guide`。
+> 请把 https://github.com/MilesHuang-EDIT/video-workflow-guide 的根目录安装为 Codex skill，安装名用 `video-workflow-guide`。
 
 合并后只需调用 `$video-workflow-guide`。原「剪映口播与教程视频剪辑」中的精剪和可编辑工程交付都可通过这个入口使用。
 
