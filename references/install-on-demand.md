@@ -2,11 +2,15 @@
 
 ## 基本规则
 
-这是总控 skill 的依赖引导，不是自动安装器。用户只有一个日常调用入口 `$jianying-tutorial-editing`；无需自行决定什么时候切换两个下游 skill。
+向导使用入口 `$video-workflow-guide`。安装与连接只针对本次确实需要的工具。
 
-先决定本次路线，再检查所需工具。优先使用会话已列出的 skill、用户指定目录及当前项目已配置的 checkout；不要把制作者电脑的路径写成所有人的固定位置。路径缺失时进行有限的相关目录查找，不扫描整台电脑。无法找到时只提示缺失项，保留已找到的版本和有效授权。
+先决定本次路线，再检查所需工具。优先使用会话已提供的 Skill、用户指定目录或当前工程已配置的 checkout。做有限的相关路径查找。无法找到时只提示本次缺失项，保留已找到的版本和有效授权。
 
 提示内容包括：缺什么、在本片负责什么、官方安装入口、下一步怎么继续。用户已经安装就不再推荐；同一缺失问题不重复催促。用户请求代装后，使用对应官方安装工作流；安装失败据实报告，不能说依赖已就绪。
+
+## OpenMotion
+
+用于从视觉参考到可播放样段的迭代，或继续已有 OpenMotion 工程。优先复用会话中的 Skill、插件和已工作的连接。缺失时指向 [OpenMotion 官方安装说明](https://github.com/nexu-io/openmotion#install)，按实际客户端选择方式。用户请求代装后按当前官方说明执行。检查能否打开和播放实际工程。需要导出时另确认渲染器及其媒体依赖。
 
 ## Agent Motion
 
@@ -37,6 +41,10 @@
 > 请把 https://github.com/Vincentwei1021/video-shotcraft 安装成 Codex skill，检查实际入口及制作所需依赖，完成后继续当前视频任务。
 
 用户要求代装时按 skill-installer 的 GitHub 安装流程执行；不静默使用浮动远端内容替换用户指定版本。实际使用时仍读取准确镜头卡、变体和 demo，不以安装完成代替镜头理解。
+
+## sound-effects
+
+本片确实需要制作或调整动作音效时，使用 [Barty-Bart 的 sound-effects](https://github.com/Barty-Bart/motion-graphics/blob/main/skills/sound-effects/README.md)。核对实际入口及它引用的脚本、素材清单和运行依赖。缺失时给出该官方入口，并继续可独立完成的画面工作。音效交接与验收见 [字幕、音乐与声音](motion-and-sound.md#动作音效)。
 
 ## 剪映及其他依赖
 
