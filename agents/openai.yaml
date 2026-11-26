@@ -1,4 +1,4 @@
 interface:
-  display_name: "剪映口播与教程视频剪辑"
-  short_description: "统一调度口播、B-roll与剪映交付，缺少所需工具时再提示官方安装入口"
-  default_prompt: "用 $jianying-tutorial-editing 制作这期视频，先推荐动效和风格预览，最后交付整理好的剪映工程；只在缺少本次必要工具时提示安装。"
+  display_name: "视频制作向导"
+  short_description: "从想法或素材开始，逐步看视觉、过分镜、试播样段，再按需交付视频"
+  default_prompt: "用 $video-workflow-guide 帮我做一条视频，从我手上的素材开始，先给我看几个视觉方向。"
