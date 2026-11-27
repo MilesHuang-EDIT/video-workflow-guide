@@ -1,4 +1,4 @@
 interface:
-  display_name: "视频制作"
+  display_name: "Final Take"
   short_description: "从想法或素材做到成片，也能精剪口播、教程和剪映草稿，按需交付可编辑工程"
   default_prompt: "用 $video-workflow-guide 从我给的素材开始做视频，或直接继续精剪我已有的剪映草稿。"
