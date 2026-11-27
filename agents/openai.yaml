@@ -1,4 +1,4 @@
 interface:
-  display_name: "视频制作向导"
-  short_description: "从想法开始做视频，也能直接精剪口播、教程和现有剪映草稿，按需交付"
+  display_name: "视频制作"
+  short_description: "从想法或素材做到成片，也能精剪口播、教程和剪映草稿，按需交付可编辑工程"
   default_prompt: "用 $video-workflow-guide 从我给的素材开始做视频，或直接继续精剪我已有的剪映草稿。"
