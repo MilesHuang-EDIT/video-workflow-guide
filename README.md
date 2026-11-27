@@ -1,6 +1,6 @@
-# 视频制作 · v0.6
+# Final Take · v0.6
 
-一个基于 [Agent Skills 开放标准](https://agentskills.io/specification) 的视频制作 Skill。提供一个想法或已有素材，Agent 会和你确认想做的视频，从画面方案、分镜和样段做到成片。也可以直接精剪口播、录屏教程和已有剪映草稿，按需交付 MP4 或可编辑工程。
+Final Take 是一个基于 [Agent Skills 开放标准](https://agentskills.io/specification) 的视频制作 Skill。提供一个想法或已有素材，Agent 会和你确认想做的视频，从画面方案、分镜和样段做到成片。也可以直接精剪口播、录屏教程和已有剪映草稿，按需交付 MP4 或可编辑工程。
 
 **[看完整的第一次使用指南](docs/getting-started.md)** · [查看按需安装的工具](references/install-on-demand.md)
 
@@ -9,7 +9,7 @@
 1. **安装。** 在支持 Agent Skills 的客户端里发送下面这句话，也可以[按你使用的客户端手动安装](docs/getting-started.md#1-怎样安装并开始)。
 
    ```text
-   请从 https://github.com/MilesHuang-EDIT/video-workflow-guide 安装视频制作 Skill。SKILL.md 在仓库根目录（路径 .），请按当前客户端的方式安装整个目录，目录名用 video-workflow-guide。
+   请从 https://github.com/MilesHuang-EDIT/video-workflow-guide 安装 Final Take。SKILL.md 在仓库根目录（路径 .），请按当前客户端的方式安装整个目录，目录名用 video-workflow-guide。
    ```
 
 2. **说你要做什么。** 有素材就把能访问的文件或链接一起发来。下面是一句可以直接改的例子。
